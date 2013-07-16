@@ -19,7 +19,6 @@
             {{#if twig1Id}}
               <a href="/twigs/{{twig1Id}}" >
              {{else}} 
-                No Link 
              {{/if}} 
        {{/if}}
 
@@ -38,7 +37,11 @@
         {{#if twig1Resource}}
           <p> <a href="/resources/{{twig1Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig1Title}}</a></p>
         {{else}}
+            {{#if twig1Id}}
        <p> <a href="/twigs/{{twig1Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig1Title}}</a></p>
+          {{else}}
+          
+          {{/if}}
       {{/if}}
       </div>
     </div>
@@ -55,7 +58,6 @@
             {{#if twig2Id}}
               <a href="/twigs/{{twig2Id}}" >
              {{else}} 
-                No Link 
              {{/if}} 
        {{/if}}
 
@@ -70,10 +72,14 @@
           </div>
         </div>
       </a>
-         {{#if twig2Resource}}
+        {{#if twig2Resource}}
           <p> <a href="/resources/{{twig2Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig2Title}}</a></p>
         {{else}}
+            {{#if twig2Id}}
        <p> <a href="/twigs/{{twig2Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig2Title}}</a></p>
+          {{else}}
+          
+          {{/if}}
       {{/if}}
       </div>
     </div>
@@ -89,7 +95,6 @@
             {{#if twig3Id}}
               <a href="/twigs/{{twig3Id}}" >
              {{else}} 
-                No Link 
              {{/if}} 
        {{/if}}
 
@@ -105,10 +110,13 @@
         </div>
         </a>
          {{#if twig3Resource}}
-          <p> <a href="/resources/{{twig3Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig2Title}}</a></p>
+          <p> <a href="/resources/{{twig3Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig3Title}}</a></p>
         {{else}}
-
+            {{#if twig3Id}}
        <p> <a href="/twigs/{{twig3Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig3Title}}</a></p>
+          {{else}}
+
+          {{/if}}
       {{/if}}
       </div>
     </div>
