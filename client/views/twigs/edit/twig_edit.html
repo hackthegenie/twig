@@ -1,0 +1,166 @@
+<template name="twigEdit">
+<p id="textArea" class="editable" data-type="textarea" data-placeholder="Enter text" data-emptytext="Click to enter text" data-rows="4">{{textArea}}</p>
+ {{#with twig}}
+  <form class="main">
+
+<div class="control-group">
+        <label class="control-label" for="Title">Twig 1 Title</label>
+        <div class="controls">
+            <input name="title" type="text" value="{{title}}" placeholder="Title"/>
+        </div>
+    </div>
+
+<div class="row-fluid">
+	<div class="span3"> </div>
+	<div class="span3">
+
+  	<div class="control-group">
+        <label class="control-label" for="twig1Title">Twig 1 Title</label>
+        <div class="controls">
+            <input name="twig1Title" type="text" value="{{twig1Title}}" placeholder="Twig 1 Title"/>
+        </div>
+    </div>
+    
+<div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="" src="{{twig1Image}}">
+</div>
+    <div class="control-group">
+        <label class="control-label" for="twig1Image">Twig 1 image</label>
+        <div class="controls">
+            <input name="twig1Image" type="text" value="{{twig1Image}}" placeholder="twig1Image"/>
+        </div>
+    </div>
+
+	
+    <div class="control-group">
+        <label class="control-label" for="twig1Text">Twig 1 Text</label>
+        <div class="controls">
+              <textarea rows="3" name="twig1Text">{{twig1Text}}</textarea>
+    
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label class="control-label" for="twig1Resource">Twig 1 resource</label>
+        <div class="controls">
+            <input name="twig1Resource" type="text" value="{{twig1Resource}}" placeholder="twig1Resource"/>
+        </div>
+    </div>
+
+
+     <div class="control-group">
+        <label class="control-label" for="twig1Id">Twig 1 ID</label>
+        <div class="controls">
+            <select name="twig1Id">
+               {{>selectList}}
+               <option selected="selected">{{twig1Id}}</option>
+            </select>
+        </div>
+    </div>
+</div>
+	<div class="span3">
+    <div class="control-group">
+        <label class="control-label" for="twig2Title">Twig 2 Title</label>
+        <div class="controls">
+            <input name="twig2Title" type="text" value="{{twig2Title}}" placeholder="Twig 2 Title"/>
+        </div>
+    </div>
+<div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="" src="{{twig2Image}}">
+</div>
+    <div class="control-group">
+        <label class="control-label" for="twig2Image">Twig 2 image</label>
+        <div class="controls">
+            <input name="twig2Image" type="text" value="{{twig2Image}}" placeholder="twig2Image"/>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="twig2Text">Twig 2 Text</label>
+        <div class="controls">
+               <textarea rows="3" name="twig2Text">{{twig2Text}}</textarea>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="twig2Resource">Twig 2 resource</label>
+        <div class="controls">
+            <input name="twig2Resource" type="text" value="{{twig2Resource}}" placeholder="twig2Resource"/>
+        </div>
+    </div> 
+
+    
+     <div class="control-group">
+        <label class="control-label" for="twig2Id">Twig 2 ID</label>
+        <div class="controls">
+         <select name="twig2Id">
+               {{>selectList}}
+               <option selected="selected">{{twig2Id}}</option>
+            </select>
+        </div>
+    </div>
+</div>
+	<div class="span3"> 
+     <div class="control-group">
+        <label class="control-label" for="twig3Title">Twig 3 Title</label>
+        <div class="controls">
+            <input name="twig3Title" type="text" value="{{twig3Title}}" placeholder="Twig 3 Title"/>
+        </div>
+    </div>
+<div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="" src="{{twig3Image}}">
+</div>
+    <div class="control-group">
+        <label class="control-label" for="twig3Image">Twig 3 image</label>
+        <div class="controls">
+            <input name="twig3Image" type="text" value="{{twig3Image}}" placeholder="twig3Image"/>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label" for="twig3Text">Twig 3 Text</label>
+        <div class="controls">
+                 <textarea rows="3" name="twig3Text">{{twig3Text}}</textarea>
+        </div>
+    </div>
+
+      <div class="control-group">
+        <label class="control-label" for="twig3Resource">Twig 3 resource</label>
+        <div class="controls">
+            <input name="twig3Resource" type="text" value="{{twig3Resource}}" placeholder="twig3Resource"/>
+        </div>
+    </div>  
+    
+  <div class="control-group">
+        <label class="control-label" for="twig3Id">Twig 3 ID</label>
+        <div class="controls">
+            <select name="twig3Id">
+               {{>selectList}}
+               <option selected="selected">{{twig3Id}}</option>
+            </select>
+        </div>
+
+</div>
+     
+<div class="span3"></div>
+</div>
+    
+
+
+      <div class="control-group">
+          <div class="controls">
+              <input type="submit" value="Submit" class="btn btn-primary submit"/>
+          </div>
+      </div>
+      <hr/>
+      <div class="control-group">
+          <div class="controls">
+              <a class="btn btn-danger delete" href="#">Delete twig</a>
+          </div>
+      </div>
+    </form>
+
+  {{/with}}    
+    
+    </template>
+  

@@ -1,0 +1,156 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_item.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_submit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/helpers/router.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_submit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/main.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_submit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/SelectList/selectList.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/SelectList/selectList.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_submit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/server/fixtures.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_page.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_display.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/collections/resources.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/selectOption.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twigs_list.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_listPage.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_simple_item",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_simple_page.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"twig2Id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,124 @@
+<template name="twigItem">
+ <div class="twig_container"> 
+  <div class="twig">
+    <div class="twig-content">
+      <h4><a href="javascript: history.go(-1)">Back</a> / <a href="{{twigPagePath this}}">{{title}}</a> - <a href="{{twigEditPath this}}"> [Edit]</a></h4> 
+
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span4">
+      <!--
+      <div class="item_title-container">
+          <h4>{{twig1Title}}</h4>
+        </div>
+      -->
+      {{#if twig1Resource}}
+       <a href="/resources/{{twig1Id}}">
+         {{else}}
+            {{#if twig1Id}}
+              <a href="/twigs/{{twig1Id}}" >
+             {{else}} 
+                No Link 
+             {{/if}} 
+       {{/if}}
+
+      <div class="item_container">
+        
+        <div class="image_container">
+          <img src="{{twig1Image}}">
+        </div>
+        
+        <div class="item_text-container">
+          <div class="item_text-content">
+           <h5> {{{twig1Text}}}</h5>
+          </div>
+        </a>
+        </div>
+        {{#if twig1Resource}}
+          <p> <a href="/resources/{{twig1Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig1Title}}</a></p>
+        {{else}}
+       <p> <a href="/twigs/{{twig1Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig1Title}}</a></p>
+      {{/if}}
+      </div>
+    </div>
+    <div class="span4">
+     <!--
+      <div class="item_title-container">
+          <h4>{{twig2Title}}</h4>
+      </div>
+     -->
+
+        {{#if twig2Resource}}
+       <a href="/resources/{{twig2Id}}">
+         {{else}}
+            {{#if twig2Id}}
+              <a href="/twigs/{{twig2Id}}" >
+             {{else}} 
+                No Link 
+             {{/if}} 
+       {{/if}}
+
+      <div class="item_container">
+
+        <div class="image_container">
+          <img src="{{twig2Image}}">
+        </div>
+        <div class="item_text-container">
+          <div class="item_text-content">
+            <h5>{{{twig2Text}}}</h5>
+          </div>
+        </div>
+      </a>
+         {{#if twig2Resource}}
+          <p> <a href="/resources/{{twig2Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig2Title}}</a></p>
+        {{else}}
+       <p> <a href="/twigs/{{twig2Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig2Title}}</a></p>
+      {{/if}}
+      </div>
+    </div>
+    <div class="span4">
+      <!--
+      <div class="item_title-container">
+        <h4>{{twig3Title}}</h4>
+      </div>
+      -->
+       {{#if twig3Resource}}
+       <a href="/resources/{{twig3Id}}">
+         {{else}}
+            {{#if twig3Id}}
+              <a href="/twigs/{{twig3Id}}" >
+             {{else}} 
+                No Link 
+             {{/if}} 
+       {{/if}}
+
+      <div class="item_container">
+  
+        <div class="image_container">
+          <img src="{{twig3Image}}">
+        </div>
+        <div class="item_text-container">
+          <div class="item_text-content">
+           <h5> {{{twig3Text}}} </h5>
+          </div>
+        </div>
+        </a>
+         {{#if twig3Resource}}
+          <p> <a href="/resources/{{twig3Id}}" class="btn btn-large btn-block btn-success" type="button">{{twig2Title}}</a></p>
+        {{else}}
+
+       <p> <a href="/twigs/{{twig3Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig3Title}}</a></p>
+      {{/if}}
+      </div>
+    </div>
+  </div>
+  </div>
+  <div><p>&nbsp;</p></div>
+
+
+
+
+
+  
+</template>

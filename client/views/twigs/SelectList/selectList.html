@@ -1,0 +1,9 @@
+<template name="selectList">	
+ {{#each twigs}}
+      {{> selectOption}}
+    {{/each}}
+ <option value=""> -- resources -- </option>
+ {{#each resources}}
+      {{> selectOption}}
+    {{/each}}
+</template>

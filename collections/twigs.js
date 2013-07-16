@@ -1,0 +1,1 @@
+Twigs = new Meteor.Collection('twigs');
