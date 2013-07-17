@@ -3,10 +3,70 @@
 	{
 		"selected_items":
 		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"id",
+				"id"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "twig_submit.html",
+			"settings":
+			{
+				"buffer_size": 4923,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig_submit.js",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig_edit.js",
+			"settings":
+			{
+				"buffer_size": 1840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "twig_edit.html",
+			"settings":
+			{
+				"buffer_size": 5669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twigs_list.js",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.js",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,26 +92,36 @@
 	},
 	"file_history":
 	[
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_item.html",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_submit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_itemNew.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/stylesheets/twig.css",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/helpers/router.js",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_submit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.html",
+		"/Users/jamesross-smih/Desktop/ahref.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/main.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_listPage.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_item.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/packages/flatstrap/assets/less/sprites.less",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/packages/flatstrap/assets/less/variables.less",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twigs_list.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/stylesheets/imagedisplay.css",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_edit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_page.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_edit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_display.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_submit.js",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_submit.html",
+		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources_submit.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/SelectList/selectList.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/SelectList/selectList.html",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.js",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_edit.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/edit/twig_submit.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/server/fixtures.js",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_page.html",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resource_display.html",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/Resources/resources.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/collections/resources.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/selectOption.js",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twigs_list.js",
-		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_listPage.html",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_simple_item",
 		"/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_simple_page.html"
 	],
@@ -71,6 +141,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"   <",
+			"Template.twigEdit.helpers({\n  twig: function() {\n    return Twigs.findOne(Session.get('currentTwigId'));\n  }\n});\n\nTemplate.twigEdit.events({ 	\n  'submit form': function(e) {\n\n   \n    e.preventDefault();\n\n    var currentTwigId = Session.get('currentTwigId');\n	\n    var twigProperties = { \n      title: $(e.target).find('[name=title]').val(),\n      twig1Image: $(e.target).find('[name=twig1Image]').val(),\n      twig1Text: $(e.target).find('[name=twig1Text]').val(),\n      twig1Title: $(e.target).find('[name=twig1Title]').val(),\n      twig1Id: $(e.target).find('[name=twig1Id]').val(),\n      twig1Resource: $(e.target).find('[name=twig1Resource]').val(),\n      twig2Image: $(e.target).find('[name=twig2Image]').val(),\n      twig2Text: $(e.target).find('[name=twig2Text]').val(),\n      twig2Title: $(e.target).find('[name=twig2Title]').val(),\n      twig2Resource: $(e.target).find('[name=twig2Resource]').val(),\n      twig2Id: $(e.target).find('[name=twig2Id]').val(),\n      twig3Image: $(e.target).find('[name=twig3Image]').val(),\n      twig3Text: $(e.target).find('[name=twig3Text]').val(),\n      twig3Resource: $(e.target).find('[name=twig3Resource]').val(),\n      twig3Id: $(e.target).find('[name=twig3Id]').val(),\n      twig3Title: $(e.target).find('[name=twig3Title]').val()\n    }\n\n    Twigs.update(currentTwigId, {$set: twigProperties}, function(error) {\n      if (error) {\n        // display the error to the user\n        alert(error.reason);\n      } else {\n        Meteor.Router.to('twigPage', currentTwigId);\n      }\n    });\n  },\n\n  'click .delete': function(e) {\n    e.preventDefault();\n\n    if (confirm(\"Delete this twig?\")) {\n      var currentTwigId = Session.get('currentTwigId');\n      Twig.remove(currentTwigId);\n      Meteor.Router.to('twigsList');\n    }\n  }\n});",
 			"div",
 			"twig2Id"
 		],
@@ -90,8 +162,173 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "twig_submit.html",
+					"settings":
+					{
+						"buffer_size": 4923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4734,
+								4734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2846.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "twig_submit.js",
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1160,
+								1242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "twig_edit.js",
+					"settings":
+					{
+						"buffer_size": 1840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "twig_edit.html",
+					"settings":
+					{
+						"buffer_size": 5669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5247,
+								5247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3352.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twigs_list.js",
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jamesross-smih/Documents/meteor/twig/twig/client/views/twigs/twig_page.js",
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
