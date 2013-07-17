@@ -3,6 +3,7 @@ Template.twigSubmit.events({
     e.preventDefault();
 
     var twig = {
+      homepage: $(e.target).find('[name=homepage]').val(),
       title: $(e.target).find('[name=title]').val(),
       twig1Image: $(e.target).find('[name=twig1Image]').val(),
       twig1Text: $(e.target).find('[name=twig1Text]').val(),
@@ -18,7 +19,7 @@ Template.twigSubmit.events({
       twig3Text: $(e.target).find('[name=twig3Text]').val(),
       twig3Resource: $(e.target).find('[name=twig3Resource]').val(),
       twig3Id: $(e.target).find('[name=twig3Id]').val(),
-      twig3Title: $(e.target).find('[name=twig3Title]').val()
+      twig3Title: $(e.target).find('[name=twig3Title]').val() 
     }
 
     twig._id = Twigs.insert(twig);
