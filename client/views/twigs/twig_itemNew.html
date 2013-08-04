@@ -8,12 +8,11 @@
   </div>
   <div class="row-fluid">
     <div class="span4">
-      <!--
+      
       <div class="item_title-container">
           <h4>{{twig1Title}}</h4>
         </div>
-      -->
-      {{#if twig1Resource}}
+            {{#if twig1Resource}}
        <a href="/resources/{{twig1Id}}">
          {{else}}
             {{#if twig1Id}}
@@ -21,16 +20,16 @@
              {{else}} 
              {{/if}} 
        {{/if}}
-
+      
       <div class="item_container">
-        
+       
         <div class="image_container">
           <img src="{{twig1Image}}">
         </div>
         
         <div class="item_text-container">
           <div class="item_text-content">
-           <h5> {{{twig1Text}}}</h5>
+           <h4> {{{twig1Text}}}</h4>
           </div>
         </a>
         </div>
@@ -46,11 +45,11 @@
       </div>
     </div>
     <div class="span4">
-     <!--
+     
       <div class="item_title-container">
           <h4>{{twig2Title}}</h4>
       </div>
-     -->
+     
 
         {{#if twig2Resource}}
        <a href="/resources/{{twig2Id}}">
@@ -85,11 +84,11 @@
       </div>
     </div>
     <div class="span4">
-      <!--
+      
       <div class="item_title-container">
         <h4>{{twig3Title}}</h4>
       </div>
-      -->
+      
        {{#if twig3Resource}}
        <a href="/resources/{{twig3Id}}">
          {{else}}
