@@ -1,14 +1,25 @@
 <template name="twigEdit">
-<p id="textArea" class="editable" data-type="textarea" data-placeholder="Enter text" data-emptytext="Click to enter text" data-rows="4">{{textArea}}</p>
+
+
  {{#with twig}}
   <form class="main">
-
 <div class="control-group">
         <label class="control-label" for="Title">Twig 1 Title</label>
         <div class="controls">
             <input name="title" type="text" value="{{title}}" placeholder="Title"/>
         </div>
     </div>
+ 
+           <div class="controls">
+              <textarea rows="10" name="resourceDetail">{{resourceDetail}}</textarea>
+          </div>
+
+
+<p id="textArea" class="editable" data-type="textarea" data-placeholder="Enter text" data-emptytext="Click to enter text" data-rows="4">{{textArea}}</p>
+
+    </div>
+
+
 <div class="control-group">
         <label class="control-label" for="homepage">Homepage</label>
         <div class="controls">

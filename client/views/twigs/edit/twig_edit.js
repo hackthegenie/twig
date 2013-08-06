@@ -13,6 +13,7 @@ Template.twigEdit.events({
     var currentTwigId = Session.get('currentTwigId');
 	
     var twigProperties = { 
+      resourceDetail: $(e.target).find('[name=resourceDetail]').val(),
       homepage: $(e.target).find('[name=homepage]').val(),
       title: $(e.target).find('[name=title]').val(),
       twig1Image: $(e.target).find('[name=twig1Image]').val(),

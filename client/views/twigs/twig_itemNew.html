@@ -6,12 +6,20 @@
 
     </div>
   </div>
+  
+  {{#if resourceDetail}}
+    {{{resourceDetail}}}
+  {{/if}}
+
   <div class="row-fluid">
     <div class="span4">
       
       <div class="item_title-container">
+        {{#if twig1Title}}
+
           <h4>{{twig1Title}}</h4>
         </div>
+
             {{#if twig1Resource}}
        <a href="/resources/{{twig1Id}}">
          {{else}}
@@ -29,7 +37,7 @@
         
         <div class="item_text-container">
           <div class="item_text-content">
-           <h4> {{{twig1Text}}}</h4>
+           <h5> {{{twig1Text}}}</h5>
           </div>
         </a>
         </div>
@@ -43,6 +51,7 @@
           {{/if}}
       {{/if}}
       </div>
+  
     </div>
     <div class="span4">
      
@@ -129,7 +138,7 @@
   <div><p>&nbsp;</p></div>
 
 
-
+  {{/if}}
 
 
   
