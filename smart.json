@@ -3,6 +3,7 @@
     "router": {},
     "jquery-ui-bootstrap": {},
     "x-editable-bootstrap": {},
-    "flatstrap": {}
+    "flatstrap": {},
+    "accounts-ui-bootstrap-dropdown": {}
   }
 }
