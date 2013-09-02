@@ -2,13 +2,22 @@
  <div class="twig_container"> 
   <div class="twig">
     <div class="twig-content">
-      <h4><a href="javascript: history.go(-1)">Back</a> / <a href="{{twigPagePath this}}">{{title}}</a> - <a href="{{twigEditPath this}}"> [Edit]</a></h4> 
+      <h4><a href="javascript: history.go(-1)">Back</a> / <a href="{{twigPagePath this}}">{{title}}</a> - {{#if currentUser}}<a href="{{twigEditPath this}}"> [Edit]</a>{{/if}}</h4> 
 
     </div>
   </div>
   
+
+
   {{#if resourceDetail}}
-    {{{resourceDetail}}}
+    <div class="row-fluid">
+      <div class="span3"></div>
+      <div class="span5">
+          <h2>{{title}}</h2>
+      {{{resourceDetail}}}
+      </div>
+      <div class="span4"></div>
+    </div>
   {{/if}}
 
   <div class="row-fluid">
@@ -47,7 +56,9 @@
             {{#if twig1Id}}
        <p> <a href="/twigs/{{twig1Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig1Title}}</a></p>
           {{else}}
-              <p> <a href="{{twigSubmitPath}}" class="btn btn-large btn-block btn-warning new1" type="button">New Twig</a>         
+            {{#if currentUser}}
+              <p> <a href="{{twigSubmitPath}}" class="btn btn-large btn-block btn-warning new1" type="button">New Twig</a>
+              {{/if}}       
           {{/if}}
       {{/if}}
       </div>

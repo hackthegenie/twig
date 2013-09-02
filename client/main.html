@@ -22,13 +22,17 @@
   <header class="navbar">
     <div class="navbar-inner">
   <div class="row">
-  <a href="{{twigSimplePagePath}}"><div class="span2">
+  <a href="/"><div class="span2">
 
 
    <img src="/twiglogo.png" height="113px" width="143px"></a></div>
    <div class="span8">
       <p>&nbsp;</p>
-     <p class ="brand">Twigged.it -The site that helps you decide what to do next <a href="{{twigSubmitPath}}">New</a></p>   </div></div>
+     <p class ="brand">Twigged.it -The site that helps you decide what to do next 
+    {{#if currentUser}}
+      <a href="{{twigSubmitPath}}">New</a>
+    {{/if}}
+    </p>   </div></div>
   </header>
   <div id="main" class="row-fluid">
 
