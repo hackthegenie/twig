@@ -58,7 +58,7 @@
           {{else}}
             {{#if currentUser}}
               <p> <a href="{{twigSubmitPath}}" class="btn btn-large btn-block btn-warning new1" type="button">New Twig</a>
-            {{/if}}       
+              {{/if}}       
           {{/if}}
       {{/if}}
       </div>
@@ -97,10 +97,8 @@
             {{#if twig2Id}}
        <p> <a href="/twigs/{{twig2Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig2Title}}</a></p>
           {{else}}
-            {{#if currentUser}}
-             <p> <a href="{{twigSubmitPath}}" class="btn btn-large btn-block btn-warning new2" type="button">New Twig</a>
+          <p> <a href="{{twigSubmitPath}}" class="btn btn-large btn-block btn-warning new2" type="button">New Twig</a>
          
-            {{/if}}
           {{/if}}
       {{/if}}
       </div>
@@ -139,11 +137,9 @@
             {{#if twig3Id}}
        <p> <a href="/twigs/{{twig3Id}}" class="btn btn-large btn-block btn-info" type="button">{{twig3Title}}</a></p>
           {{else}}
-          {{#if currentUser}}
-            <p> 
-              <a class="btn btn-large btn-block btn-warning new3" href="#">New twig</a>
-            </p>
-            {{/if}}
+          <p> 
+            <a class="btn btn-large btn-block btn-warning new3" href="#">New twig</a>
+          </p>
           {{/if}}
       {{/if}}
       </div>
