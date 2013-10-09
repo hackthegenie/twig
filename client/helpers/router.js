@@ -1,3 +1,8 @@
+Router.map(function() {
+this.route('twigsList', {path: '/'});
+this.route('twigSimplePage');
+});
+/*
 Meteor.Router.add({
   '/': 'twigsList',
   '/twigs/:_id': {
@@ -34,5 +39,5 @@ Meteor.Router.add({
 }
 
 });
-
+*/
 	

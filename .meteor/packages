@@ -11,3 +11,13 @@ accounts-password
 accounts-twitter
 accounts-facebook
 accounts-google
+standard-app-packages
+flatstrap
+HTML5-History-API
+jquery-ui
+jquery-ui-bootstrap
+page-js-ie-support
+spin
+x-editable-bootstrap
+z-mongo-admin
+iron-router

@@ -5,6 +5,7 @@
     "x-editable-bootstrap": {},
     "flatstrap": {},
     "spin": {},
-    "z-mongo-admin": {}
+    "z-mongo-admin": {},
+    "iron-router": {}
   }
 }
