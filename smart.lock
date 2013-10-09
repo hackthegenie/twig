@@ -6,7 +6,8 @@
       "jquery-ui-bootstrap": {},
       "x-editable-bootstrap": {},
       "flatstrap": {},
-      "accounts-ui-bootstrap-dropdown": {}
+      "spin": {},
+      "z-mongo-admin": {}
     },
     "packages": {
       "router": {
@@ -29,10 +30,15 @@
         "tag": "v1.0.0",
         "commit": "f6f79e940524bdd1aa379fd708d8eda0f83dc557"
       },
-      "accounts-ui-bootstrap-dropdown": {
-        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
-        "tag": "v0.6.5.1",
-        "commit": "c8b29d2e7f8611d6dec9d6d23c1c2b94e000b0fb"
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.0",
+        "commit": "fd3a2871a69442848b4b4e74f5e1ae28fa4a95a4"
+      },
+      "z-mongo-admin": {
+        "git": "https://github.com/gterrono/meteor-admin-ui.git",
+        "tag": "v0.2.0",
+        "commit": "deb7ae9b4042469424ff668c72982fb83fe1cc40"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

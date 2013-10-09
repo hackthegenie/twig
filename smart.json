@@ -4,6 +4,7 @@
     "jquery-ui-bootstrap": {},
     "x-editable-bootstrap": {},
     "flatstrap": {},
-    "accounts-ui-bootstrap-dropdown": {}
+    "spin": {},
+    "z-mongo-admin": {}
   }
 }
